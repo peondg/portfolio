@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namastech Inc | Web Design & Development</title>
+    <!-- Google Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,13 +16,13 @@
     <div class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h1>Namastech Inc</h1>
                     <p>Namastech Inc. is a web development and design company owned and operated by Daniel Peon.</p>
                     <blockquote>Hi, my name is Daniel Peon. It is a pleasure to be able to be able to do what I love, designing web sites
                         and solving complex problems every day. Having worked in the IT industry for a number of years
                         has provided me with the basis to know what people are looking for. If hired, I will strive to meet the needs of businesses, and 
-                        use all of the tools available, as the world is changing, so is technology. The sky truly seems to be the limit now!
+                        use all of the tools available, in this age of constant change. I am amazed by the things that are now possible!
                     </blockquote>
                 </div>
             </div>
@@ -27,7 +32,7 @@
     <!-- Main Section  -->
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-12">
+            <div class="col text-center">
                 <h3>Welcome to My Site</h3>
                 <p>Feel free to have a look around!</p>
             </div>
@@ -35,6 +40,38 @@
     </div>
 
     <!-- Footer Section  -->
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="http://instagram.com">Instagram</a></li>
+                        <li><a href="http://facebook.com">Facebook</a></li>
+                        <li><a href="http://twitter.com">Twitter</a></li>
+                        <li><a href="http://youtube.com">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 text-center">
+                    Tel: (786) 555-1234 <br />
+                    Email: dgpeon62@gmail.com
+                </div>
+            </div>
+        </div>
+    </footer>
     
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
